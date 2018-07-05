@@ -25,6 +25,20 @@
   height: 100%;
 }
 
+@media only screen and (max-width:768px) 
+{
+    .buttonMargin {
+        margin:10px;
+    }
+}
+
+@media only screen and (min-width:769px)
+{
+    .buttonBigMargin {
+        margin:80px;
+    }
+}
+
 
 /*#google-map>p {
     font-size: 350% !important;
